@@ -1,5 +1,4 @@
 # exclude everything in
-output/*
 input/*
 !input/input.tmx
 .vscode/*
