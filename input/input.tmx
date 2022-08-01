@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tmx version="1.4">
+  <header
+    creationtool="XYZTool" creationtoolversion="1.01-023"
+    datatype="PlainText" segtype="sentence"
+    adminlang="en-us" srclang="en"
+    o-tmf="ABCTransMem"/>
+  <body>
+    <tu tuid="79WmD8QlgUc2Va4YK5wjXPwh">
+      <tuv xml:lang="en">
+        <seg>Hello world!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4FWmG8QcgUc9Va4DK5wjXPwh">
+      <tuv xml:lang="en">
+        <seg>Hello world!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="12WmD8QDgUc2Va4YK5wjXPwh">
+      <tuv xml:lang="en">
+        <seg>Hello world!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EtZBPyGJXZPupvMU3vtP7Blv">
+      <tuv xml:lang="en">
+        <seg>Hello!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="eVzd3prjyv4PAoA93sOqFNfW">
+      <tuv xml:lang="en">
+        <seg>Good evening!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonsoir!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SoSiJe6y2It7ITEX19JU81Vs">
+      <tuv xml:lang="en">
+        <seg>Thank you for your offer.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Merci pour votre offre.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PwKvtm0Y8O2G4jNfQchIAGqr">
+      <tuv xml:lang="en">
+        <seg>Thank you for your offer.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Merci pour votre offre.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EWlDlnfD2epp6Igt9CVBUe6S">
+      <tuv xml:lang="en">
+        <seg>I think I have to go!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>je pense que je dois y aller.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ekrEBwWMCaCncY6LSSzosYnU">
+      <tuv xml:lang="en">
+        <seg>I think I have to go!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>je pense que je dois y aller</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EJbEfLVhYxuG4burJaAsQbRa">
+      <tuv xml:lang="en">
+        <seg>Thank you for your offer.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Merci pour votre offre;</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

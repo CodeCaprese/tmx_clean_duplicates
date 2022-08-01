@@ -1,0 +1,7 @@
+# exclude everything in
+output/*
+input/*
+!input/input.tmx
+.vscode/*
+lib/*
+!lib/file_handling.py
