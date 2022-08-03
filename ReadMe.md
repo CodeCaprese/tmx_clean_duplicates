@@ -2,7 +2,7 @@
 
 ## Short description
 
-1. Use first the programm "tmx_cleanup.py" to find all duplicates in a given TMX files. Check the not semi duplicates you want to delete.
+1. Use first the programm "tmx_cleanup.py" to find all duplicates in a given TMX files. Check the semi duplicates you want to delete.
 2. Then use the second programm "delete_segments_by_tuids.py" to delete all the not necessary sgements via the ID in a given TMX File.
 
 ## Description
