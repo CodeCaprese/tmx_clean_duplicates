@@ -1,17 +1,17 @@
-# TMX duplicates Cleaner
+# TMX duplicates cleaner
 
-## Short Description
+## Short description
 
-The first programm "tmx_cleanup.py" will find all duplicates in a given TMX file and output a cleaned TMX Files and a TAB seperated CSV with all semi duplicates.
-So you can work out which translations are not necessary anymore.
-Save all the not nexessary IDs in a TAB seperated txt file (Excel is helpful) and use the second programm "delete_segments_by_tuids.py".
-Select the TMX file that has to be cleaned from the semi duplicates. Select the TXT file with all the IDs that should be deleted.
-As Output you get a new TMX file without the semi duplicates.
+1. Use first the programm "tmx_cleanup.py" to find all duplicates in a given TMX files. Check the not semi duplicates you want to delete.
+2. Then use the second programm "delete_segments_by_tuids.py" to delete all the not necessary sgements via the ID in a given TMX File.
+
+## Description
 
 ### tmx_cleanup.py
 
-It will delete all duplicates, write out a txt file with found duplicates and a new TMx file, without duplicates. One (the first found) of duplicates will not be deleted.
-It also create a CSV file (Delimiter TAB) with all found semi duplicates.
+The program asks you which TMX file you want to edit. It has to be in the input folder.
+It will delete all duplicates and create a txt file with found duplicates, a new TMx file without duplicates and CSV (Delimiter TAB) with all semi duplicates. The first duplicate found will not be deleted.
+All of them are saved in the output folder.
 
 Input TMX Format
 
@@ -21,8 +21,11 @@ Input TMX Format
 
 ### delete_segments_by_tuids.py
 
-It will delete all nodes (imported by TXT file) where the ID is found in the imported List.
-It will create a new TMX File without all imported IDs.
+The program asks you which TMX file you want to edit, then it will ask you for a TXT file, that contains all the IDs. This file has to be Tab sperated.
+Both of them has to be in the input folder.
+It will delete all segments if the ID is found from the imported by TXT file.
+It will create a new TMX file like the inputed TMX file without the deleted segments.
+if a row or the ID entry in the importet txt file is empty, the programm skips it.
 
 Input CSV Format
 
@@ -32,17 +35,18 @@ Input CSV Format
 - Header: ID    Lang_1 (e.g: en_US)    Lang_2 (e.g:de_DE)
 - Rows: 9LASxy3fxC34qd91O80Qksps4    You are welcome.    Gern geschehen.
 
-## Folder Structure
+## Folder structure
 
-- input (the programms will search this folder for the input files)
-- lib (programm helpful files)
-- output (all the generated files will copied here)
+- input (the programms looks in this folder for the input files to select)
+- lib (programm helpful files, do not delete)
+- output (all the generated files can be found here)
 
-### Python Version tested
+### Python version tested
 
 - 3.9.6
 
 ## Note
 
-When importing the semi_duplicates.csv in Excel select the UTF-8 Encoding.
-When saving the file as TAB seperated TXT File (for input), then "Save as" the file and select as file type the .txt file with TAB seperated.
+- A semi duplicate is the same translation for different input strings.
+- When importing the semi_duplicates.csv in Excel select the UTF-8 Encoding.
+- To create the input file to import the IDs, click in Excel "Save as" and select the file type the "Text (tab delimited) (*.txt)".
