@@ -49,6 +49,6 @@ print("\nI will now check for semi-duplicates. This can take a while. Time for a
 # find all semi-duplicates and write CSV file
 fh.find_and_write_semi_duplicates(tuids, segments, selected_file[1])
 
-print("\nThanks for waiting. You can find the tab-delimited CSV file (" + used_file + "_semi_duplicates.csv) in the output folder.")
+print("\nThanks for waiting. You can find the tab delimited TXT file (" + selected_file[1] + "_semi_duplicates.csv) in the output folder.")
 print("That was it! Have a great day.")
 input("")

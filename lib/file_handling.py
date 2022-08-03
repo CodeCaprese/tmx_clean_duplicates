@@ -244,7 +244,7 @@ def get_tuids_to_delete(file_incl_path):
             reader = csv.reader(f, dialect)
 
             for row in reader:
-                if(row[0] != "ID" and row[0] != "id" and row[0] != "" and row[0] != " "):
+                if(row[0] != "ID" and row[0] != "id" and row[0] != "" and row[0] != " " and row[0] != 'Column1'):
                     tuids_to_delete.append(row[0])
         except:
             print("TXT File uses wrong Delimiter. Please use TAB Delimiter")
