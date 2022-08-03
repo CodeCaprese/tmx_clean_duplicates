@@ -35,7 +35,7 @@ Input CSV Format
 - Header: ID    Lang_1 (e.g: en_US)    Lang_2 (e.g:de_DE)
 - Rows: 9LASxy3fxC34qd91O80Qksps4    You are welcome.    Gern geschehen.
 
-## Folder structure
+### Folder structure
 
 - input (the programms looks in this folder for the input files to select)
 - lib (programm helpful files, do not delete)
