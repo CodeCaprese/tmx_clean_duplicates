@@ -41,7 +41,7 @@ Input CSV Format
 - lib (programm helpful files, do not delete)
 - output (all the generated files can be found here)
 
-### Python version tested
+### Python version used while coding
 
 - 3.9.6
 
